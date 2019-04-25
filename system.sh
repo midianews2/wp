@@ -29,6 +29,7 @@ apt-get upgrade -y
 apt-get dist-upgrade -y 
 apt-get install figlet cowsay curl -y 
 apt-get install wget man git htop -y
+apt-get install software-properties-common dirmngr -y
 cp /usr/games/cowsay /usr/bin/cowsay
 cp /usr/games/cowthink /usr/bin/cowthink 
 
